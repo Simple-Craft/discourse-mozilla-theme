@@ -45,6 +45,13 @@
 
 /* Move category badges to banner below header */
 
+d-header .title::after {
+    padding-left: 20px;
+    font-size: 1.5em;
+    color:  #000000;
+    content: "Simple Craft Network";
+}
+
 .d-header .contents {
     margin-bottom: 0;
 }
