@@ -31,6 +31,21 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
+/* Begin Rank Badges */
+
+.topic-meta-data .username.Developer::after {
+	content: "Developer";
+	margin-left: 0.5em;
+	background-color: #B71c1c;
+	padding: 1px 3px;
+	color: white;
+	//font-size: 11px;
+	border: 1px solid #D13636;
+	font-weight: 400;
+	border-radius: 3px;
+    font-family: "Tahoma", sans-serif;
+}
+
 /* Dinopark-style focus styles */
 
 .focus-styles :focus {
