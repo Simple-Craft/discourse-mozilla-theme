@@ -33,6 +33,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Begin Rank Badges */
 
+// We're not displaying the user group on posts but still want it on profiles.
+a.user-group {
+	display: none;
+}
+
 .topic-meta-data .username.Developer::after {
 	content: "Developer";
 	margin-left: 0.5em;
