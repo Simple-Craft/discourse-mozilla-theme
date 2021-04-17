@@ -164,6 +164,18 @@ a.user-group {
 	font-family: "Tahoma", sans-serif;
 }
 
+.topic-meta-data .username.Bot::after {
+	content: "Bot";
+	margin-left: 0.5em;
+	background-color: #7289DA;
+	padding: 1px 3px;
+	color: white;
+	border: 1px solid #39456d;
+	font-weight: 400;
+	border-radius: 3px;
+	font-family: "Tahoma", sans-serif;
+}
+
 /* Dinopark-style focus styles */
 
 .focus-styles :focus {
