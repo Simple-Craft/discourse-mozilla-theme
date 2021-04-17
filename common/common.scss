@@ -31,6 +31,42 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
 }
 
+/* Subscriptions */
+
+.btn-discourse-subscriptions-subscribe {
+    background: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%) !important;
+    color: white;
+}
+
+.btn-payment {
+    background: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%) !important;
+    color: white;
+}
+
+.btn-primary:hover.btn-discourse-subscriptions-subscribe {
+    background: linear-gradient(315deg, #DEA228 0%, #e34e55 74%);
+    color: white;
+}
+
+.btn-primary:hover.btn-payment {
+    background: linear-gradient(315deg, #DEA228 0%, #e34e55 74%);
+    color: white;
+}
+
+.btn-primary:active.btn-discourse-subscriptions-subscribe {
+    background: linear-gradient(315deg, #DEA228 0%, #e34e55 74%);
+    color: white;
+}
+
+.btn-primary:active.btn-payment {
+    background: linear-gradient(315deg, #DEA228 0%, #e34e55 74%);
+    color: white;
+}
+
+.StripeElement {
+    background-color: white !important;
+}
+
 /* Algolia Dark CSS */
 
 .aa-footer .algolia-logo {
