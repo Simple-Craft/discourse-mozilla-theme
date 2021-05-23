@@ -126,6 +126,57 @@ h1, h2, h3, h4, h5, h6 {
 		}
 }
 
+@keyframes rainbow-outline{
+100%,0%{
+		background-color: rgb(255,0,0);
+		border: 1px solid #ff1a1a;
+		}
+		8%{
+			background-color: rgb(255,127,0);
+			border: 1px solid #ff8c1a;
+		}
+		16%{
+			background-color: rgb(255,255,0);
+			border: 1px solid #ffff1a;
+		}
+		25%{
+			background-color: rgb(127,255,0);
+			border: 1px solid #8cff1a;
+		}
+		33%{
+			background-color: rgb(0,255,0);
+			border: 1px solid #1aff1a;
+		}
+		41%{
+			background-color: rgb(0,255,127);
+			border: 1px solid #1aff8c;
+		}
+		50%{
+			background-color: rgb(0,255,255);
+			border: 1px solid #1affff;
+		}
+		58%{
+			background-color: rgb(0,127,255);
+			border: 1px solid #1a8cff;
+		}
+		66%{
+			background-color: rgb(0,0,255);
+			border: 1px solid #1a1aff;
+		}
+		75%{
+			background-color: rgb(127,0,255);
+			border: 1px solid #8c1aff;
+		}
+		83%{
+			background-color: rgb(255,0,255);
+			border: 1px solid #ff1aff;
+		}
+		91%{
+			background-color: rgb(255,0,127);
+			border: 1px solid #ff1a8c;
+		}
+}
+
 .avatar-flair-Developer {
 		animation: rainbow 5s linear;
 		animation-iteration-count: infinite;
@@ -148,7 +199,7 @@ a.user-group {
 	font-weight: 400;
 	border-radius: 3px;
    	font-family: "Tahoma", sans-serif;
-	animation: rainbow 5s linear;
+	animation: rainbow-outline 5s linear;
 	animation-iteration-count: infinite;
 }
 
