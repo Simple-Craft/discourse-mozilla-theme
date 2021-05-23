@@ -148,14 +148,14 @@ a.user-group {
 	font-weight: 400;
 	border-radius: 3px;
    	font-family: "Tahoma", sans-serif;
+	animation: rainbow 5s linear;
+	animation-iteration-count: infinite;
 }
 
 .topic-meta-data .username.Admin::after {
 	content: "Admin";
 	margin-left: 0.5em;
 	background-color: #FF5722;
-	animation: rainbow 5s linear;
-	animation-iteration-count: infinite;
 	padding: 1px 3px;
 	color: white;
 	border: 1px solid #802c11;
